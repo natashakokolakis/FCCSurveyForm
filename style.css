@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:900|Rubik);
+
+html {
+  background-color: lightblue;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Playfair Display SC', serif;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 3em;
+}
+
+#description{
+  font-style: italic;
+  font-size: 14px;
+}
+
+form {
+  border-radius: 5%;
+  max-width: 600px;
+  min-height: 750px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.input-field, #dropdown {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+textarea {
+  border-radius: 5px;
+  border-color: lightgrey;
+  resize: none;
+  width: 100%;
+  height: 200px;
+}
+
+#dropdown {
+  background-color: white;
+}
+
+#submit, #reset {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-color: transparent; 
+}
+
+
+#submit:hover, #reset:hover {
+  background-color: hsl(210, 45%, 80%);
+}
+

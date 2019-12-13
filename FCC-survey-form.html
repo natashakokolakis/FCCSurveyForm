@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+  </script>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">This is a survey.</p>
+
+  <form id="survey-form">
+  
+    <p><label id="name-label" for="name">*Name:</label><br>
+  <input type="name" class="input-field" id="name" name="name" placeholder="Enter your name" required></p>
+ 
+  <p><label id="email-label" for="email">*Email:</label><br>
+  <input type="email" class="input-field" id="email" name="email" placeholder="Enter your email" required></p>
+  
+  <p><label id="number-label" for="number">*Age:</label><br>
+  <input type="number" class="input-field right" id="number" name="number" placeholder="Enter your age" min=10 max=100 required></p>
+  
+  <p><label for="radio">*Gender:</label><br>
+  <input class="right" type="radio" name="radio" value="male">Male
+  <input class="right" type="radio" name="radio" value="female">Female
+  <input cclass="right" type="radio" name="radio" value="other">Other</p>
+ 
+  <p><label for="dropdown">Pick a number:</label><br>
+    <select name="dropdown" id="dropdown">
+    <option value disabled>Select an option</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    </select></p>
+    
+  <p><label for="checkbox">Pick any of these:</label><br>
+   <label><input type="checkbox" name="checkbox" value="nothing">nothing</label>
+   <label><input type="checkbox" name="checkbox" value="something">something</label>
+   <label><input type="checkbox" name="checkbox" value="anything">anything</label>
+   <label><input type="checkbox" name="checkbox" value="everything">everything</label>
+  </p>
+  
+    <label for="color">Pick your favourite colour: </label><br><input class="input-field" type="color" name="color" value="#ccddff"/>
+  
+  <p><label for="comment"> Leave a comment:</label><br>
+      <textarea name="comment" placeholder="Enter comment here...">
+</textarea>
+    
+    <p><input type="submit" id="submit">     <input type="reset" id="reset"></p>
+  
+  </body>      
+</form>
+</html>
+
+
+
